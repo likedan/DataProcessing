@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Bids" representedClassName=".Bids" syncable="YES">
+        <attribute name="auction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bid_ID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="bidder_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="device" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="merchandise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Test" representedClassName=".Test" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bidder_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payment_Account" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Trainer" representedClassName=".Trainer" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bidder_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payment_Account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bids" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="Test" positionX="-54" positionY="63" width="128" height="90"/>
+        <element name="Trainer" positionX="-36" positionY="72" width="128" height="105"/>
+    </elements>
+</model>
